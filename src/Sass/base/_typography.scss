@@ -1,0 +1,25 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  color: #444;
+  line-height: 1.9;
+  background-color: #f3f3f3;
+}
+
+.highlight {
+  position: relative;
+
+  &::after {
+    display: block;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    transform: scale(1.07, 1.05) skewX(-20deg);
+    background-image: linear-gradient(to top left, rgba($color-primary-light, 0.4), rgba($color-primary-dark, 0.9));
+  }
+}
