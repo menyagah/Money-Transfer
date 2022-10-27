@@ -6,6 +6,18 @@ body {
   background-color: #f3f3f3;
 }
 
+.header__logo-box {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
+  
+  &{
+    height: 3.5rem;
+    font-size: 3rem;
+    font-weight: 100px;
+  }
+}
+
 .highlight {
   position: relative;
 
@@ -23,3 +35,9 @@ body {
     background-image: linear-gradient(to top left, rgba($color-primary-light, 0.4), rgba($color-primary-dark, 0.9));
   }
 }
+
+.period {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
