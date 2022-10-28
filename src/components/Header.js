@@ -25,9 +25,7 @@ function Header() {
           <div className='col-1-of-2 '>
             <div className='header__image u-margin-top'>
               <div className='composition'>
-            
                 <img src={shopping} alt='' className='composition__photo composition__photo--p3' />
-                
               </div>
             </div>
           </div>
