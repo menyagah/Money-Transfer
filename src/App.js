@@ -1,4 +1,5 @@
 import React from "react";
+import Features from "./components/Features";
 import Grid from "./components/Grid";
 import Header from "./components/Header";
 import Navbar from "./components/Navbar";
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <Navbar/>
       <Header/>
-      <Grid/>
+      <Features/>
+      
     </div>
   );
 }
