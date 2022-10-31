@@ -20,7 +20,12 @@
     &--p3{
       left: 0;
       top: -20rem; 
-     
+      @include respond(tab-port){
+        left: 25%;
+      }
+      @include respond(phone){
+        left: 14%;
+      }
     }
     // &:hover {
     //   transform: scale(1.05);

@@ -3,17 +3,14 @@ import lady from '../img/lady.png';
 import delivery from '../img/delivery.png'
 
 function Features() {
-  
-  const ref = useRef(null);
 
-  useEffect(()=> {
-    const el = ref.current;
-  })
-  
   return (
     <div className='features__section'>
       <div className='features__section-title'>
-        <h2 className='u-color-green'>Features</h2>
+        <div className='Features__section-secondary'>
+          <h2 className='u-color-green'>Features</h2>
+        </div>
+        
         <h3>Everything You Need In An Online Banking App.</h3>
       </div>
       

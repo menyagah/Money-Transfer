@@ -1,19 +1,27 @@
 .features__section {
   margin-top: 15rem;
   min-height: 120vh;
-  
+ 
+  .Features__section-secondary {
+    display: flex;
+    
+  }
+
   &-title{
-   position: relative;
-   width: fit-content;
-   top: 0;
-   left: 10%;
-   
-   
+   display: flex;
+   flex-direction: column;
+   margin-left: 8rem;
+   margin-bottom: 3rem;
+
    @include respond(tab-port){
     text-align: center;
+    margin-left: 0;
+    align-items: center;
+    justify-content: center;
   }
   @include respond(phone){
     text-align: center;
+    margin-left: 0;
   }
   }
 }

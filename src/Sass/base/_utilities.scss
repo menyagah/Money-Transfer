@@ -46,6 +46,7 @@
 
 .u-align-text {
   text-align: right;
+  margin-bottom: 3rem;
   @include respond(tab-port){
     text-align: center;
   }
@@ -58,6 +59,7 @@
   position: relative;
   top: 50%;
   left: 5%;
+  margin-bottom: 3rem;
   @include respond(tab-port){
     top: 0;
     left: 0;
