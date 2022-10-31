@@ -1,9 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../Css/Main.css'
 import shopping from '../img/shopping.png';
-import lady from '../img/lady.png';
+import Features from './Features';
+
+
 
 function Header() {
+ 
+ 
   return (
     <header className='header'>
       <div className='row'>
@@ -18,8 +22,8 @@ function Header() {
                 <span className="highlight"> Simple </span>
                 </h1>
                 <br/>
-                <h4>A simpler and secure way of making payments.<br/> We'll handle your worldwide transactions, so you can fast-track global expansion.</h4>
-                <a href='#' className='btn-text'>Learn More &darr;</a>
+                <p>A simpler and secure way of making payments.<br/> We'll handle your worldwide transactions, so you can fast-track global expansion.</p>
+                <a href='#features__section' className='btn-text' >Learn More &darr;</a>
             </div>
           </div>
           <div className='col-1-of-2 '>

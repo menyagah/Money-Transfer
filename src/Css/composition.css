@@ -1,7 +1,7 @@
 .composition {
   position: relative; }
   .composition__photo {
-    width: 80%;
+    width: 40rem;
     box-shadow: 0 0 0 black;
     border-radius: 2px;
     position: absolute;
@@ -14,5 +14,5 @@
       right: 10rem;
       top: -5rem; }
     .composition__photo--p3 {
-      left: 2%;
+      left: 0;
       top: -20rem; }

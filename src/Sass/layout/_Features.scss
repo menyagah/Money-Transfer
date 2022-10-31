@@ -1,11 +1,20 @@
 .features__section {
   margin-top: 15rem;
-  min-height: 100vh;
+  min-height: 120vh;
   
   &-title{
    position: relative;
-   width: 80%;
+   width: fit-content;
    top: 0;
-   left: 20%;
+   left: 10%;
+   overflow: hidden;
+   
+   @include respond(tab-port){
+    
+    text-align: center;
+  }
+  @include respond(phone){
+    text-align: center;
+  }
   }
 }
